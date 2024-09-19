@@ -17,7 +17,7 @@
     --font-medium: 1.2rem;
     --button-padding: 15px 25px;
     --button-border-radius: 12px;
-    --button-width: clamp(200px, 40%, 300px);
+    --button-width: clamp(250px, 40%, 300px);
     --icon-size: 1.3rem;
 }
 
@@ -68,13 +68,11 @@ main {
     align-items: center;
     margin-bottom: 3%;
     height: 40vh;
-    gap: 10px;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 
 main a {
     background-image: var(--button-gradient);
-    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
     display: inline-flex;
     align-items: center;
     text-decoration: none;
