@@ -39,7 +39,7 @@ Or click here:
 ## 🎥 User Guide / Demo
 
 <p>Here is RiwaLink design screenshot:</p>
-<img src="https://github.com/Riwa-Hammoud/Batterly/blob/main/images/riwalink.png">
+<img src="https://github.com/Riwa-Hammoud/RiwaLink/blob/main/riwalink.png">
 
 ## 🤝 Contribute
 
