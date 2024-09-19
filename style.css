@@ -68,7 +68,8 @@ main {
     align-items: center;
     margin-bottom: 3%;
     height: 40vh;
-    justify-content: space-evenly;
+    gap: 10px;
+    /* justify-content: space-evenly; */
 }
 
 main a {
