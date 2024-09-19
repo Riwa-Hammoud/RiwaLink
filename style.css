@@ -13,6 +13,7 @@
     /* Size and layout variables */
     --header-gap: 15px;
     --header-margin-top: 3%;
+    --main-margin-top: 10%;
     --font-large: 2rem;
     --font-medium: 1.2rem;
     --button-padding: 15px 25px;
@@ -30,7 +31,6 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     font-family: Arial, sans-serif;
     text-align: center;
     min-height: 100vh;
@@ -66,8 +66,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3%;
     height: 40vh;
+    margin-top: var(--main-margin-top);
     justify-content: space-evenly;
 }
 
@@ -148,6 +148,8 @@ main a:nth-of-type(2), main a:nth-of-type(4) {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
     background: var(--footer-bg);
     color: var(--white);
     padding: 10px;
