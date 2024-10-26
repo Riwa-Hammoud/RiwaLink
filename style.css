@@ -31,7 +31,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    min-height: 100vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -56,7 +56,7 @@ header h2 {
 }
 
 img {
-    width: 150px;
+    width: 160px;
     height: auto;
     border-radius: 50%;
 }
@@ -153,6 +153,5 @@ footer {
     color: var(--white);
     padding: 10px;
     width: 100%;
-    height: auto;
     text-align: center;
 }
